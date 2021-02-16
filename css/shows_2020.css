@@ -1,0 +1,120 @@
+.spectacular {
+	text-align: center;
+	 color: #ffdb66;
+	 font-size:18px;
+	 text-transform: uppercase;
+}
+.auditionsAnnouncement {
+	background-color:rgba(0,0,0,.1);
+	border-radius:8px;
+	width:80%;
+	margin:auto;
+	padding-top:8px;
+}
+.auditionsTitle {
+	text-align: center;
+	color: #ffdb66;
+	font-size:18px;
+	text-transform: uppercase;
+	margin-bottom:0;
+	margin-top:0;
+	padding-bottom:0;
+	box-sizing: border-box;
+	border-radius:18px;
+
+}
+.auditionsInfo {
+	margin-top:0;
+	padding-top:0;
+	box-sizing: border-box;;
+	text-align: center;
+	color: white;	
+	margin-bottom:1em;
+
+}
+
+.reservation_line
+{
+	font-style: italic;
+	color:#cccccc;
+	font-size:.93em;
+	text-align:center;
+	margin-top:8px;
+}
+
+.reshi 
+{
+	color:white;
+	font-size:1.1em;
+	font-style:normal;
+	font-weight:bold;
+}
+
+.fireworks {
+	background-image:url('../images/interface/scarab_divider.png'), url('../images/fireworks_background.jpg') ;
+	background-size:100%, 100%;
+	background-position:50% 100%, 0 0;
+	background-repeat:no-repeat, no-repeat;
+	padding:20px;
+	padding-top:8px;
+}
+
+.intro {
+	font-family: 'Lora';
+}
+.intro h1 {
+	font-size:1.2em;
+	color:rgb(161, 253, 255);
+	text-transform: uppercase;
+	font-style: italic;
+	font-family: Times;
+}
+
+.intro h2 {
+	font-size:1em;
+	color:white;
+	font-style:normal;
+	text-transform: uppercase;
+	margin-top:10px;
+	line-height:1.1em;
+	text-shadow: 2px 2px 17px rgba(0, 0, 0,1);
+}
+
+.intro h3 {
+	font-size:18px;
+	text-shadow: 0 0 20px rgba(0,0,0,1);
+	margin-top:4px;
+	color:white;
+	text-shadow: 0 0 24px red;
+	color:rgb(179, 182, 255);
+}
+
+.intro h4 {
+	font-size:18px;
+	margin-top:6px;
+}
+
+.intro h5 {
+	color:white;
+	margin-top:4px;
+	text-shadow: 0 0 8px black;
+	font-size:17px;
+	margin-bottom:20px;
+}
+
+em {
+	font-weight: 900;
+	font-style: italic;
+}
+
+.show h2 {
+	text-transform: uppercase;
+}
+
+.tempDiv {
+	margin:20px;
+	border:8px solid rgb(35, 35, 196);
+	padding:40px;
+	text-align: center;
+	font-size:2em;
+}

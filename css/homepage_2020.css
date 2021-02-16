@@ -1,0 +1,238 @@
+
+/**
+  *   Homepage - specific styles - for the 2017-2018 LLT season
+  *
+  *
+  *   Written by Bart Dority  (http://doritydesignworks.com)
+  *
+  */
+
+
+.logo:hover {
+	background-image:url('../images/interface/logo_plate.png');
+	
+}
+
+.mast-left-column {
+	width:164px;
+
+	display:inline-block;
+	float:left;
+}
+
+.masthead {
+	width:100%;
+	max-width:850px;
+	min-width:850px;
+	height:540px;
+	margin-bottom:0px;
+	margin-left:auto;
+	margin-right:auto;
+	text-align: center;
+	padding-left:10px;
+	box-sizing:border-box;
+}
+
+.masthead nav {
+	padding-top:4px;
+	font-size:15px;
+	text-align: left;
+	width:160px;
+	padding-left:10px;
+	box-sizing: border-box;
+	line-height:17px;
+	/*border-right:1px solid white;*/
+}
+
+
+#carousel {
+	display:inline-block;
+	width:649px; 
+	height:498px;
+	background-image:url('../homepage/images/homepage_curtain_gold.png');
+	background-size:639px;
+	background-position: 50% 0px;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	/*border:1px solid red;*/
+	padding-top:40px;
+	padding-left:0px;
+	text-align: center;
+	box-sizing: border-box;
+	margin-bottom:-10px;
+	margin-left:12px;
+	/* border:8px solid blue; */
+}
+
+.top-caption {
+	user-select: none;
+	font-size:13px;
+	text-align: center;
+	color:rgb(255, 232, 158);
+	margin-top:10px;
+	white-space: nowrap;
+}
+
+
+
+.home_footer {
+	text-align: center;
+}
+
+
+/*  These are the individual show posters inside the carousel.  */
+.cloudcarousel {
+/*	-webkit-box-shadow: 0px 0px 5px 2px rgba(255,255,225,0.75);
+-moz-box-shadow: 0px 0px 5px 2px rgba(255,255,225,0.75);
+box-shadow: 0px 0px 5px 2px rgba(255,255,225,0.75);
+border: 1px solid #bbbbbb;*/
+
+}
+
+.raise {
+	text-align: center;
+	border-radius: 8px;
+	padding:20px;
+	line-height: 1.5em;
+	color:rgb(200, 247, 255);
+	font-size:.9em;
+	text-shadow: none;
+	margin-bottom:18px;
+	background-color: rgba(34, 161, 102, 0.5);
+	border:4px solid rgb(34, 161, 102);
+	margin-left:14px;
+	margin-right:14px;
+}
+
+.popBox_nobackgd {
+	border-radius: 8px;
+	padding:8px;
+	line-height: 1.5em;
+	color:white;
+	margin-bottom:20px;
+}
+
+.popBox1 {
+	text-align: center;
+	border-radius: 8px;
+	line-height: 1.5em;
+	color:#99ffb3;
+	font-size:.9em;
+	text-shadow: none;
+	margin-bottom:18px;
+	border:4px solid;
+	background-color:#397a4a;
+	border-color:#2b5c3e;
+	margin-left:14px;
+	margin-right:14px;
+	padding:20px;
+}
+
+
+.popBox2 {
+	text-align: center;
+	border-radius: 8px;
+	padding:20px;
+	line-height: 1.5em;
+	color:rgb(200, 247, 255);
+	font-size:.9em;
+	text-shadow: none;
+	margin-bottom:18px;
+	border:4px solid rgb(34, 161, 91);
+}
+
+.popBox3 {
+	text-align: center;
+	border-radius: 8px;
+	padding:20px;
+	line-height: 1.5em;
+	color:#99ddc8;
+	font-size:.9em;
+	text-shadow: none;
+	margin-bottom:18px;
+	background-color:rgba(21, 109, 61, 0.5);
+	border:4px solid rgb(24, 124, 77);
+	padding:20px;
+	margin-left:14px;
+	margin-right:14px;
+}
+
+.brackettitle {
+	display:inline-block;
+	width:100px;
+	margin-top:4px;
+	user-select: none;
+}
+
+
+.bracket {
+	box-sizing: border-box;
+	width:200px;
+	margin-top:4px;
+	padding-left:25px;
+background-image:url('../images/interface/bracket.svg');
+background-repeat: no-repeat;
+background-position: -12px 0;
+background-size: 100% 100%;
+height: 140px;
+}
+
+.stats {
+	margin-top:200px;
+	opacity:.25;
+	padding-left:20px;
+	padding-bottom:250px;
+	transition: .7s;
+	background-color:rgba(0,0,0,0);
+}
+
+.stats:hover {
+	background-color:rgba(0,0,0,.2);
+	opacity:.9;
+}
+
+p.bright {
+	color:white;
+}
+
+.season_script {
+	 background-image:url('../homepage/images/season_title.png'); 
+	width:640px;
+	background-size: 640px 120px;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	height:120px;
+	z-index:300;
+	margin-bottom:-80px;
+	position:relative;
+	top:-468px;
+	left:180px;
+	/* border:8px solid magenta; */
+}
+
+.contact {
+	text-align:center;
+}
+
+.season_ticket_members {
+	background-color:rgba(35, 136, 77, 0.9);
+	border:4px solid rgb(58, 244, 83);
+	border-radius:12px;
+	padding:22px;
+	margin-left:14px;
+	margin-right:14px;
+}
+
+.be_the_first {
+	background-color:rgba(28, 104, 84, 0.9);
+	border:4px solid rgb(46, 167, 144);
+	border-radius:12px;
+	padding:22px;
+	margin-left:14px;
+	margin-right:14px;
+}
+
+.be_the_first:active {
+	background-color:rgba(28, 104, 84, 1);
+	border:4px solid rgb(45, 204, 175);
+}

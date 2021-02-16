@@ -1,0 +1,150 @@
+/**
+  *   Sidebar - specific styles - for the 2017-2018 LLT season
+  *
+  *
+  *   Written by Bart Dority  (http://doritydesignworks.com)
+  *
+  */
+
+
+/* Pale Gold: #ebc788;  
+   Creamy:  #ffe6a2;
+   Bright Gold: #ffc40c;
+   Medium Gold: #e49100;
+   Dark Gold: #815200;
+   Dark Brown: #2d1a05;
+*/
+
+
+
+.sidebar {
+	width:26%;
+	display:inline-block;
+	float:left;
+	box-sizing: border-box;
+	margin-left:0;
+}
+
+
+.sBox {
+	width:95%;
+	background-color:#914d03;
+	text-align: center;
+	border-radius: 8px;
+	padding:25px;
+	line-height: 1.4em;
+	color:rgb(219, 243, 254);
+	font-size:.9em;
+	text-shadow: none;
+	margin-bottom:18px;
+	box-sizing:border-box;
+	margin-left:2%;
+	border:4px solid rgb(84, 37, 1);
+}
+
+.sBox2 {
+	background-color:rgba(0, 0, 0, 0.4);
+	text-align: center;
+	border-radius: 8px;
+	padding:10px;
+	line-height: 1.4em;
+	color:rgba(255,255,255,.8);
+	font-size:.9em;
+	text-shadow: none;
+	margin-bottom:18px;
+	border:4px solid rgb(39, 139, 71);
+	box-sizing:border-box;
+  width:100%;
+}
+
+.sBox2 img {
+	width:100%;
+}
+
+.sBox3 {
+	background-color:#444444;
+	text-align: center;
+	border-radius: 8px;
+	padding:10px;
+	line-height: 1.5em;
+	color:#ebc788;
+	font-size:.9em;
+	text-shadow: none;
+	margin-bottom:18px;
+	width:93%;
+}
+
+
+
+.sBox h1 {
+	font-weight: bold;
+	line-height: 1em;
+	font-style: italic;
+	text-transform: uppercase;
+	font-size:14px;
+	color:rgb(132, 214, 151);
+	
+	margin:0;
+}
+
+.sBox h2 {
+	font-size:14px;
+	font-weight:bold;
+	color:white;
+	text-transform:uppercase;
+	margin-top:4px;
+	line-height: 1em;
+	font-style:italic;
+  margin-top:10px;
+}
+
+.sBox hr {
+	height:2px;
+	width:60%;
+	border-width: 0;
+	background-color: #2ab176;
+	margin-top:8px;
+	margin-bottom:10px;
+}
+
+
+.socialIcon {
+	width:43%;
+	height:74px;
+	border-radius:16px;
+	background-color:rgba(255,255,255,0);
+	transition:all 1s; 
+	display:inline-block;
+	padding:0;
+	margin-left:2px;
+	margin-right:2px;
+	background-repeat: no-repeat;
+	background-size:97%;
+	background-position: 50% 50%;
+	margin-top:0;
+	transition:all .5s;
+	box-sizing: border-box;
+}
+
+.socialIcon:hover {
+	background-color:#08c473;
+ box-shadow:0 0 9px #5dfc8f;
+}
+
+.fb {
+	background-image:url('../images/interface/fb_icon.svg');
+}
+
+.fb:hover {
+
+	background-image:url('../images/interface/fb_icon_hi.svg');
+	
+}
+
+.instagram {
+	background-image:url('../images/interface/instagram_icon.svg');
+}
+
+.instagram:hover {
+	background-image:url('../images/interface/instagram_icon_hi.svg');
+}

@@ -1,0 +1,65 @@
+#############################################################
+# Date trigger info for 20xx-20yy Season                    #
+#-----------------------------------------------------------#
+# format:                                                   #
+#                                                           #
+# Discussion:                                               #
+#                                                           #
+# This data is used to build a two-dimensional Associative  #
+# Array in the format of: ( READ THE DETAILS BELOW!! )      #
+#                                                           #
+# $date_array['shrek']['season']='2018'                     #
+# $date_array['skrek']['last_audition']='2018/04/30 20:00'  #
+# $date_array['shrek']['first_show']='2018/05/24 19:30'     #             
+# $date_array['shrek']['reserve']= * Calculated *           #             
+# $date_array['shrek']['last_show']='2018/06/03 14:30'      #
+#                                                           #
+# NOTE: The fields can have leading and trailing blanks as  #
+#       needed for readability, but are not required. The   #
+#       spaces are stripped out when loaded into memory.    #
+#                                                           #
+# Things to take note of:                                   #
+#                                                           #
+# 1. Season: This is an 4-digit for the start of the        #
+#    current season such as 2019 for the 2019-2020 season   #
+#                                                           #
+# 2. About the SHOW Field:  The name listed the SHOW field  #
+#    MUST match the name of the php file name in the        #
+#    data/shows/nn directory.                               #
+#                                                           #
+#    For Example:                                           #
+#                                                           #
+#     data/shows/58/rexs_exes.php is matched to rexs_exes   #
+#     and data/shows/58/annie_jr.php is matched to annie_jr #
+#     in the show column below.                             #
+#                                                           #
+# 3. The Last Audition and Last Show values in this file    #
+#    represent the publicly advertised values.  When these  #
+#    parameters are loaded into memory, their time values   #
+#    is adjusted forward by 30 minutes.  This way the       #
+#    website will  drop information 30 minutes after the    #
+#    Last publicized Auditions date and time and 30 mins    #
+#    after the Last Show has had 'curtain up'.              #
+#                                                           #
+# 4. The First Show date and time is the basis for          #
+#    CALCULATING the reservation line open date.  The       #
+#    reservation line open date is 7 days PRIOR to the      #
+#    First Show date ( and the hours and minutes set to     #
+#    00:00).                                                #
+#                                                           #
+#-------- new for 2019 -------------------------------------#
+# The date file is used to determine which shows are part   #
+# of the carousel. The first 4 lines are in the carousel.   #
+# and must be in chronological order. show 1 is in line 1   #
+# etc. etc.  Line 5 to end of file can be in any order and  #
+# are used for shows ( or other events like movies ) that   #
+# need to be configured in the date file so they can be     #
+# displayed on the home page but do not / should not be in  #
+# the carousel.                                             #
+#############################################################
+#Season|Show         |Last Audition   |First Show      |Last Show
+#------+-------------+--------------+------------------+----------------+----------------
+2020   |doublewide   |2020/12/01 19:00|2021/01/22 19:30|2021/01/31 14:00
+2020   |liveatthepo  |2020/12/01 19:00|2021/02/26 19:30|2021/03/07 14:00
+2020   |ongoldenpond |2021/02/02 19:00|2021/04/16 19:30|2021/04/25 14:00
+2020   |wonka_jr     |2020/12/01 19:00|2021/06/03 19:30|2021/06/06 14:00

@@ -1,0 +1,85 @@
+
+body {
+    background-color: #54984f;
+}
+
+div#content {
+    background-color: white;
+    padding:10px;
+    margin-left:10px;
+    width:700px;
+    padding-left:20px;
+}
+
+
+form {
+    background-color: #a1e39d;
+    border:1px solid black;
+    padding-left:10px;
+    font-family: sans-serif;
+}
+
+fieldset {
+    border:1px dashed #54984f;
+    width:600px;
+    background-color: rgba(200, 242, 198, 0.75);
+    padding:10px;
+}
+
+input {
+    border:0px solid #54984f;
+    background-color: hsl(117, 49%, 93%);
+    font-size: 95%;
+    padding:4px;
+    
+}
+
+label {
+    font-size: 90%;
+    color: #3b7237;
+}
+
+input.warning 
+{
+    border:2px solid red;
+}
+
+input a {
+    background-color: #ffff00;
+}
+
+input.button {
+    border:4px outset #52b74b;
+    padding:6px;
+}
+
+p.warning{
+    color:red;
+}
+
+p.confirm {
+    margin:20px;
+    padding:20px;
+    background-color: #c6f5c3;
+    border:1px solid #54984f;
+}
+
+a.largeButton {
+    
+    padding:20px;
+    background-color: #86d080;
+    font-family: sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 110%;
+    text-decoration: none;
+    border:1px solid #54984f;
+}
+
+p.green {
+    font-size: 140%;
+    color: #54984f;
+    font-weight: bold;
+    font-family: "Arbutus Slab";
+	
+}

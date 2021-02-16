@@ -1,0 +1,29 @@
+.chart {
+	font-size:.76em;
+    padding-left:0px;
+    margin: 0px;
+    width:800px;
+    background-color:rgba(108, 90, 73, 0.75);
+    color:rgb(252, 251, 229);
+    border:2px solid rgb(138, 61, 28);
+    margin-top:10px;
+}
+
+.chart tr:nth-child(even) {
+	background-color:rgba(0,0,0,.24);
+}
+
+.chart .info {
+	color:rgb(240, 237, 150);
+	padding-left:50px;
+}
+
+.chart .table_banner {
+	background-color:rgb(160, 97, 20);
+	font-size:1.2em;
+}
+
+.chart th {
+	background-color:rgba(150,150,150,.4);
+	padding:4px;
+}

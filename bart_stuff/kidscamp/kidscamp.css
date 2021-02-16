@@ -1,0 +1,35 @@
+body {
+  background: #75bb45;
+  margin: 0 0 0 0px;
+  
+
+}
+
+div#content {
+    background-color: #ffffff;
+    padding:20px;
+    width:600px;
+    margin:20px;
+}
+
+p.legend {background:#cceac9;
+    font-weight: bold;  
+    color:black;
+    padding:.2em .3em;
+    font-size:1.2em;
+    border: 2px outset #75bb45;
+    position:relative;
+    margin-bottom:-.1em;
+    width:10em;
+    margin-left:0em;
+    margin-top:-10px}
+
+#parentInfo {background:#cceac9; border:outset #75bb45; }
+#parentInfo label {position:absolute; left:60px;padding-top:.7em;}
+#parentInfo input {margin-left:13em;line-height: 1.4em;}
+
+#childsInfo {background:#cceac9; border:outset #75bb45; }
+#childsInfo label {position:absolute; left:60px;padding-top:.7em;}
+#childsInfo input {margin-left:13em;line-height: 1.4em;margin-bottom:.2em;}
+
+input.submit { font-size: 120%; border:outset 4px #dddddd; background: #eeeeee}

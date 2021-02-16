@@ -1,0 +1,62 @@
+/*  These column divs will take up just slightly under a 3rd of the horizontal width.
+   The vertical-align:top will make sure that the three columns all appear at the same
+   height.  */
+.column {
+    box-sizing:border-box;
+    display:inline-block;
+    vertical-align:top;
+    text-align: center;
+    font-size:1.05em;
+    padding:8px;
+}
+.column p {
+    font-size:.94em; 
+    line-height:1.8em; 
+    margin-bottom:20px; 
+   
+    text-align:left;
+}
+.column h1 { color:rgb(122, 235, 255); }
+.column h2 {
+    color:white;
+    font-weight:bold;
+    font-style:italic;
+    font-size:1.4em;
+    margin:0;
+    margin-top:0px;
+    line-height:1em;
+}
+.column h3 {
+    color:rgb(82, 173, 252);
+    font-style:normal;
+    margin-top:0px;
+    margin:0;
+}
+.column h5 {
+    font-size:.95em;
+    line-height:1.4em;
+}
+
+.auditionsImage {
+    width:80%;  /* This same % will work no matter if there are 1 column, 2 columns or 3 columns */
+    margin:4px;
+    margin-top:14px;
+    margin-bottom:14px;
+}
+/* On screens that are 700px or less, set the columns to be stacked vertically
+   instead of horizontally. 
+   To accolmplish this - we switch the display property to "block", and set the 
+   width of the column to 100%
+   Note to Eddie - I took out the Table -- so that I can acheive this collapsing effect
+   with CSS divs.
+   */
+@media screen and (max-width: 700px) {
+  .column {
+      display:block;
+      width:100%;
+      padding-left:30px;
+      padding-right:30px;
+      border-bottom:2px solid #ff5555;
+      margin-bottom:20px;
+  }
+}

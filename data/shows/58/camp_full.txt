@@ -1,0 +1,10 @@
+<!-- Camp is now 100% full!<br /> -->
+
+<!--
+  <span style="font-size:0.8em;">
+    <a style="color:#ffc40c;" href=" http://events.eventzilla.net/e/llt-kids-camp-2017--lion-king-jr-2138892557" target="_blank" rel="noopener noreferrer nofollow">
+      We usually have a few cancellations and you can sign up for our 
+      wait-list by clicking here and filling out the registration
+    </a>
+  </span> 
+-->

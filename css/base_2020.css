@@ -1,0 +1,635 @@
+
+/**
+  *   Base Style Sheet - for the 2017-2018 LLT season
+  *
+  *
+  *   Written by Bart Dority  (http://doritydesignworks.com)
+  *
+  */
+
+@import url(https://fonts.googleapis.com/css?family=Lora:400,400italic,700,700italic);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700,700italic);
+
+
+
+
+/*  We start by clearing out all the pre-defined style definitions so we
+    know what we're working with.
+    Based on work by Eric Meyer: http://meyerweb.com/eric/tools/css/reset/index.html
+-------------------------------------------------------------- */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	border: 0;
+	font-family: inherit;
+	font-size: 100%;
+	font-style: inherit;
+	font-weight: inherit;
+	margin: 0;
+	outline: 0;
+	padding: 0;
+	vertical-align: baseline;
+}
+:focus {/* remember to define focus styles! */
+	outline: 0;
+}
+
+
+
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size:1.04em;
+	line-height:1.8em;
+	margin:0px;
+	padding:0px;
+	color:white;
+	background-color: #000000; 
+	font-style: normal;
+	margin-left:auto;
+	margin-right:auto;
+
+background-color:#005244;
+background: #005244; /* Old browsers */
+background-image:url(../images/interface/steakhouse_pattern_green2.gif) ;
+background-repeat: repeat;
+background-position: 0 0;
+background-attachment: fixed;
+
+}
+
+
+/*   Structural Elements ------------------------------------------*/
+
+
+
+
+.page {
+width:100%;
+max-width:800px;
+ margin-left:auto;
+ margin-right:auto;
+  margin-bottom:20px;
+  margin-top:0px;
+  display:block;
+  box-sizing:border-box;
+  padding-left:0;
+}
+
+.intro {
+	padding-top:8px;
+	text-align: center;
+	font-family: 'Vollkorn';
+	font-weight: 700;
+	font-style: italic;
+	font-size:1.7em;
+}
+
+.center_outter_container{
+      float: left;
+      position: relative;
+      left: 50%;
+}
+
+.center_inner_container {
+      float: left;
+      position: relative;
+      left: -50%;
+}
+
+.scarab {
+	margin:0px;
+	background-color: rgba(0,0,0,0);
+	font-size: .9em;
+	line-height: 1.5em;
+	color:#cdcdcd;
+	box-sizing:border-box;
+	background-image:url('../images/interface/scarab_divider.png');
+	background-repeat: no-repeat;
+	background-position:50% 100%;
+	/* border-bottom:2px solid rgb(39, 90, 145); */
+	background-size:90%;
+/*	padding:10px;
+    margin-bottom:24px;
+    padding-bottom:66px;
+*/    
+}
+
+.scarab p {
+	margin-bottom:1em;
+}
+
+.show {
+	padding:10px;
+	margin:0px;
+	background-color: rgba(0,0,0,0);
+	font-size: .9em;
+	line-height: 1.5em;
+	color:#cdcdcd;
+	margin-bottom:24px;
+	box-sizing:border-box;
+	padding-bottom:66px;
+	background-image:url('../images/interface/scarab_divider.png');
+	background-repeat: no-repeat;
+	background-position:50% 100%;
+	/* border-bottom:2px solid rgb(39, 90, 145); */
+	background-size:90%;
+}
+
+.show p {
+	margin-bottom:1em;
+}
+
+
+
+.show img {
+/*-webkit-box-shadow: 19px -10px 19px -5px rgba(0,0,0,0.75);
+-moz-box-shadow: 19px -10px 19px -5px rgba(0,0,0,0.75);
+box-shadow: 19px -10px 19px -5px rgba(0,0,0,0.75);
+border: 2px solid #2241c8;
+border-radius:10px;
+margin-top:20px;*/
+max-width:280px;
+border-radius:8px;
+}
+
+.show_nb {
+	padding:12px;
+	margin:8px;
+	background-color: rgba(0,0,0,0);
+	font-size: .9em;
+	line-height: 1.5em;
+}
+
+.show_nb img {
+-webkit-box-shadow: 19px -10px 19px -5px rgba(0,0,0,0.75);
+-moz-box-shadow: 19px -10px 19px -5px rgba(0,0,0,0.75);
+box-shadow: 19px -10px 19px -5px rgba(0,0,0,0.75);
+border: 2px solid #2241c8;
+border-radius:10px;
+margin-top:20px;
+}
+
+
+
+div.footer {
+	text-align: center;
+	margin-bottom:100px;
+
+}
+
+/*  Typography  -----------------------------------------------------*/
+
+a {
+	text-decoration: none;
+	color: #fee9b4;     /* #c88612; /* #d5d4ff;*/
+	padding-bottom:2px;
+}
+
+hr {
+	height:2px;
+	width:60%;
+	border-width: 0;
+	background-color: white;
+}
+
+
+
+.italic {
+	font-style: italic;
+}
+.glow {
+	text-shadow:2px 2px 2px #d48c01;
+}
+
+.dark_shadow {
+	text-shadow:2px 2px 2px #000000;
+}
+
+/*  This indents the nav links at the top of the page */
+nav a {
+	font-size:.97em;
+	padding-left:4px;
+	display:block;
+	line-height: 1.45em;
+
+}
+
+nav a:hover {
+	color:white;
+
+}
+
+
+.caption {
+	font-size:13px;
+	text-align: center;
+
+}
+
+
+.ms_caption {
+	font-size:13px;
+	text-align: center;
+	color:#ff3333;
+	white-space: nowrap;
+}
+
+nav .standout {
+	color:white;
+}
+
+.anniversary {
+	width:100%;
+}
+
+.main {
+	width:71%;
+	display:inline-block;
+	float:right;
+/*	background-color:rgba(0, 0, 0, .6); */
+	/* background-color:rgb(62, 176, 117); */
+	box-sizing:border-box;
+	vertical-align: top;
+	margin-bottom:20px;
+	padding-bottom:25px;
+	border-radius:20px;
+	
+}
+
+.main2 {
+
+	background-color:rgba(0, 0, 0, .15);
+
+}
+
+/*.content {
+	position: relative;
+	top:-20px;
+}*/
+
+.headBanner {
+	text-align: center;
+	margin-top:0;
+	padding-top:6px;
+	border-radius:8px 8px 0 0;
+	font-family: "Merriweather";
+	font-size:1.1em;
+	color:white;
+	text-transform: uppercase;
+	background-color:rgb(21, 159, 117);
+	background-color:#3b7742;
+padding-top:8px;
+}
+.main h1 {
+	
+	text-align: center;
+	font-style: normal;
+
+}
+.main h2 {
+	color:white;
+		font-style: italic;
+	text-align: center;
+	margin-bottom:8px;
+	font-size: 1.5em;
+	text-shadow:2px 2px 2px #270025;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.main h3 {
+	font-style: italic;
+	text-align: center;
+	font-size: 1.2em;
+	color:#c72f00;
+	font-weight: bold;
+}
+
+.main h4 {
+	text-align: center;
+
+	font-size: 1.25em;
+}
+
+.main h5 {
+	text-align: center;
+	font-size: .9em;
+	margin-bottom:8px;
+}
+
+.main center {
+	text-align: center;
+}
+
+.main smalltext{
+  font-size:0.8em;
+  font-style:italic;
+  line-height:1.4em;
+}
+
+.main underline {
+	text-decoration:underline;
+}
+
+.main .dropdown {
+	text-align: center;
+	margin-right: auto;
+	margin-left:auto;
+}
+
+
+.past_main {
+ width:780px;
+ display:inline-block;
+ float:right;
+}
+
+.past_main h1 {
+	
+	text-align: center;
+	font-style: normal;
+}
+
+.past_main h2 {
+	color:white;
+		font-style: italic;
+	text-align: center;
+	margin-bottom:8px;
+	font-size: 1.5em;
+	text-shadow:2px 2px 2px #270025;
+	font-weight: bold;
+}
+
+.past_main h3 {
+	font-style: italic;
+	text-align: center;
+	font-size: 1.2em;
+	color:#c72f00;
+	font-weight: bold;
+}
+
+.past_main h4 {
+	text-align: center;
+
+	font-size: 1.25em;
+}
+
+.past_main h5 {
+	text-align: center;
+	font-size: .9em;
+	margin-bottom:8px;
+}
+.past_main center {
+	text-align: center;
+}
+
+.past_main smalltext{
+font-size:0.8em;
+font-style:italic;
+line-height:95%;
+}
+
+.smalltext{
+font-size:0.8em;
+font-style:italic;
+line-height:95%;
+}
+
+.past_main underline {	
+	text-decoration:underline;
+}
+
+.past_main .dropdown {
+	text-align: center;
+	margin-right: auto;
+	margin-left:auto;
+}
+
+table.directors {
+	width:510px;
+
+}
+
+.patron_table {
+	width:540px;
+	margin-top:4px;
+	background-color:rgba(50,50,50,.4);
+	color:#aaaaaa;
+	font-size:.95em;
+}
+
+.patron_table td {
+	padding:0px;
+}
+
+.patron_header {
+	background-color:rgba(200,200,200,.2);
+	text-align: center;
+	color:#cccccc;
+	font-weight: bold;
+}
+
+.director_cell {
+	
+	text-align: right;
+	padding:4px;
+	padding-right:10px;
+}
+.director_name {
+	
+	text-align:left;
+	padding:4px;
+	padding-left:10px;
+
+}
+
+.cast_table_settings{
+    border-collapse:collapse; 
+    border-spacing:0px;
+    padding:0;
+    border:0px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.show h1 {
+	font-weight: bold;
+
+}
+
+.show h1 .standout {
+	color:white;
+
+	font-size: 1.2em;
+}
+
+.chart {
+	font-size:.76em;
+padding-left:0px;
+/*line-height:120%;*/
+
+margin: 0px;
+width:800px;
+background-color:#333333;
+color:#cccccc;
+}
+
+.chart .table_banner {
+	background-color:#764c06;
+	font-size:1.2em;
+}
+
+.chart td {
+	padding:4px;
+}
+.chart .info {
+	color:#d4890b;
+	padding-left:50px;
+}
+
+.chart tr:nth-child(even) {
+	background-color:rgba(244,244,244,.05);
+}
+.chart th {
+	background-color:black;
+	padding:4px;
+}
+div.chartBreak {
+	border-bottom:2px solid rgba(0,0,0,.25);
+}
+.showTitle {
+	font-size: 1.05em;
+	font-style: italic;
+	font-weight: bold;
+}
+/*  Images ---------------------------------------------------------*/
+
+
+
+.show img {
+	width:60%;
+	float: right;
+	margin-left:8px;
+	margin-bottom:14px;
+}
+
+.howard_logo {
+	background-color: white;
+	background-image: url("../images/hi_blue.png");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	width:230px;
+	height:74px;
+	margin-left:auto;
+	margin-right:auto;
+	border-radius: 10px;
+	border:8px solid white;
+	margin-top:8px;
+}
+
+.lightThrill
+{
+	font-size:1.2em;
+	font-weight: bold;
+	color: #ff2660;
+	text-shadow: 2px 2px 8px #000000;
+
+}
+
+.chills
+{
+	font-size:1.2em;
+	font-weight: bold;
+	color:rgba(255,0,0,1);
+	text-shadow: 2px 2px 8px #000000;
+
+}
+
+.blurb_highlight {
+font-weight:bold;
+font-style:italic;
+color:#FFFF66;
+display:inline;
+}
+
+/*  ClearFix  -----------------------------------------------------------
+*/
+
+
+/*  The ClearFix by Tony Aslett and Nicholas Gallagher */
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+
+.group:after {
+  clear:both;
+}
+
+.group {
+  zoom: 1; /* IE6&7 */
+}
+
+li {
+	margin-left:20px;
+}
+
+
+.logo {
+	display:inline-block;
+	float:left;
+	width:180px;
+	height:155px;
+    overflow: visible;
+    background-image:url('../images/interface/logo_plate.png');
+    background-size:99%;
+	background-repeat: no-repeat;
+
+}
+
+.logo:hover {
+	background-image:url('../images/interface/logo_plate_hi.png');
+
+}
+
+
+/* Second Level --- */
+
+
+.main_content {
+ 
+  font-size:15px;
+ background-color:#602d00;
+  /* for some reason if we don't include a border,
+   then the padding doesn't get applied correctly, so I'm including a 'transparent' border. */
+  border:2px solid rgba(0,0,0,0);
+}
+
+
+
+
+.floater {
+	border:2px solid black;
+	border-radius:8px;
+	max-width:280px;
+}
+
+
+.call_to_action {
+  color: #c5ee8c;
+}
+
+
+.padMe {
+	padding:20px;
+	padding-top:0;
+}

@@ -1,0 +1,68 @@
+<html>
+ <head>
+  <link href='formstyle.css' rel='stylesheet' type='text/css' />
+ </head>
+
+ <body><br />
+     <div id='content'>
+  <div id='header'><h1>Register for Laurel Little Theatre's<br />Summer Kid's Camp</h1></div>
+
+
+  
+    <p>Please enter your registration info below:</p>
+    <form action='showRequestInfo.php' method='POST'>
+	 <h3>Parent's Info:</h3>
+         <fieldset>
+          <table width='600'><tr>
+              <td><label for='first_name'>First Name:</label><br /> 
+                  <input type='text' name='first_name' size='28' /><br /></td>
+              <td colspan='2'><label for='last_name'>Last Name:</label><br />
+              <input type='text' name='last_name' size='30' /><br /></td>
+              </tr>
+        <tr><td><label for='email'>E-mail address:</label><br />
+            <input type='text' name='email' size='30' maxlengh='50'/><br /></td>
+              <td colspan='2'><label for='phone'>Phone Number:</label><br />
+            <input type='text' name='phone' size='20' /><br /></td></tr>
+             
+              <tr><td colspan='3'><label for='email'>Shipping address:</label> <br />
+                  <input type='text' name='address' size='50' /><br /></td></tr>
+              <tr><td><label for='email'>City:</label><br /> <input type='text' name='city' size='32' /><br /></td>
+              <td width='70'><label for='email'>State:</label><br />
+                  <input type='text' name='state' size='3' /><br /></td>
+                  <td><label for='email'>Zip:</label><br /><input type='text' name='email' size='18' /><br /></td>
+              </tr>
+        </table>
+        </fieldset>
+          
+          
+          
+          
+        <h3>Child's Info:</h3>
+        <fieldset>
+        <table width='600'><tr>
+              <td><label for='childs_first_name'>First Name:</label><br /> 
+                  <input type='text' name='childs_first_name' size='28' /><br /></td>
+              <td><label for='childs_last_name'>Last Name:</label><br />
+              <input type='text' name='childs_last_name' size='30' /><br /></td>
+              </tr>
+        <tr><td><label for='childs_age'>Age:</label><br />
+            <input type='text' name='childs_age' size='10' /><br /></td>
+              </tr></table>
+  
+         
+      </fieldset>
+        <br />
+         <table width='600'><tr><td width='250'>
+            
+       </td>
+              <td align='right'> <input type='submit' value='Register for Camp' class='button'/>
+        </td></tr></table>
+        <br />
+    </form>
+         
+         
+  </div>
+
+  <div id='footer'></div>
+ </body>
+</html>
